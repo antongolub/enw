@@ -33,3 +33,9 @@ project/client/src> ../../server/node_modules/requirejs/bin/r.js -o build.js
 project/client/src> ../../server/node_modules/requirejs/bin/r.js -o build-cdn.js
 project/client/src> ../../server/node_modules/requirejs/bin/r.js -o build-singlefile.js
 ```
+### Documentation
+[Service description](http://elasticnode.ru/widget/) (ru), [API documentation](http://school.elasticnode.ru/api/) (ru), [jsdoc](http://elasticnode.ru/widget/docs/jsdoc/), [docco](http://elasticnode.ru/widget/docs/docco/app.html)
+### Test reports
+[coverage](http://elasticnode.ru/widget/docs/coverage/Chrome%2036.0.1985%20(Mac%20OS%20X%2010.9.3)/), [unittest](http://elasticnode.ru/widget/docs/unit_reports/Chrome%2036.0.1985%20(Mac%20OS%20X%2010.9.3)/)
+### r.js builds
+[compressed](https://raw.githubusercontent.com/antongolub/enw/master/client/dist/js/app/main.js), [cdn-based](https://raw.githubusercontent.com/antongolub/enw/master/client/dist/js/app/main-cdn.js), [singlefile](https://raw.githubusercontent.com/antongolub/enw/master/client/dist/js/app/main-singlefile.js)
