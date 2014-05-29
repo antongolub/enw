@@ -1,0 +1,4 @@
+enw
+===
+
+Elasticnode widget
