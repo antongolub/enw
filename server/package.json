@@ -1,0 +1,33 @@
+{
+  "name": "elasticnodeWidgetBackend",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "x",
+    "lodash": "x",
+    "feathers": "x",
+    "path": "x",
+    "requirejs": "x"
+  },
+  "devDependencies": {
+    "csso": "x",
+    "docco": "x",
+    "gulp": "x",
+    "gulp-replace": "x",
+    "istanbul": "x",
+    "jsdoc": "x",
+    "karma": "x",
+    "karma-chrome-launcher": "x",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-coverage": "^0.2.1",
+    "karma-html-reporter": "^0.2.3",
+    "karma-htmlfile-reporter": "^0.1.0",
+    "karma-jasmine": "0.2.2",
+    "karma-jshint": "^0.1.0",
+    "karma-qunit": "x",
+    "karma-requirejs": "x",
+    "requirejs": "x"
+  },
+  "engines": {
+    "node": "x"
+  }
+}
