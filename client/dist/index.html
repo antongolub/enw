@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Elasticnode Widget</title>
+
+</head>
+
+<body>
+<a href="http://elasticnode.ru" id="logo">
+    <svg height="70" width="102" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="100" height="41" fill="transparent" style="stroke:black;stroke-width:1"></rect>
+        <line x1="1" y1="1" x2="101" y2="42" style="stroke:black;stroke-width:1"></line>
+        <line x1="1" y1="21" x2="101" y2="21" style="stroke:black;stroke-width:1"></line>
+        <text x="1" y="60" style="font-family: helvetica neue, helvetica, sans-serif; font-size: 8pt">Elasticnode</text>
+    </svg>
+</a>
+<div id="widgetContainer"></div>
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            var widget = new window.Enw({
+                type: "ege",
+                host: "school.elasticnode.ru",
+                container: "#widgetContainer"
+            });
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.setAttribute("data-main", "js/app/main.js");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = d.location.protocol + "//cdn.jsdelivr.net/requirejs/2.1.11/require.min.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "enwCallback");
+</script>
+</body>
+</html>

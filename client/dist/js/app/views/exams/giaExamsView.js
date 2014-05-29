@@ -1,0 +1,1 @@
+define(["views/exams/examsView","models/giaModel"],function(e,i){return e.extend({title:"giaTitle",ModelConstructor:i})});

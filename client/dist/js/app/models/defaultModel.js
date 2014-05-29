@@ -1,0 +1,1 @@
+define(["backbone","framework"],function(n,i){return i.support.cors=!0,function(){var t=n.sync;n.sync=function(n,e,r){return r=i.extend({},r),r.crossDomain||(r.crossDomain=!0),r.xhrFields||(r.xhrFields={withCredentials:!0}),t(n,e,r)}}(),n.Model.extend({initialize:function(){this.instanceUrl=this.host+"/"+this.path},url:function(){return this.instanceUrl}})});

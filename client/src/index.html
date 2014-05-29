@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Elasticnode Widget</title>
+
+</head>
+
+<body>
+<a href="http://elasticnode.ru" id="logo">
+    <svg height="70" width="102" xmlns="http://www.w3.org/2000/svg">
+        <rect x="1" y="1" width="100" height="41" fill="transparent" style="stroke:black;stroke-width:1"></rect>
+        <line x1="1" y1="1" x2="101" y2="42" style="stroke:black;stroke-width:1"></line>
+        <line x1="1" y1="21" x2="101" y2="21" style="stroke:black;stroke-width:1"></line>
+        <text x="1" y="60" style="font-family: helvetica neue, helvetica, sans-serif; font-size: 8pt">Elasticnode</text>
+    </svg>
+</a>
+<div id="widgetContainer"></div>
+<script>
+    window.enwCallback = [function(){
+        var widget = new window.Enw({
+            type: "ege",
+            host: "school.elasticnode.ru",
+            container: "#widgetContainer"
+        });
+    }];
+</script>
+<script src="/bower_components/requirejs/require.js" data-main="/js/app/main.js"></script>
+</body>
+</html>

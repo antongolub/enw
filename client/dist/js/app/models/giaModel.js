@@ -1,0 +1,1 @@
+define(["models/defaultModel"],function(e){return e.extend({path:"api/exams/gia"})});

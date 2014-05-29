@@ -1,0 +1,21 @@
+.enw{
+  &__table{
+    width: 100%;
+    th, td{
+      padding-right: 0.5em;
+    }
+    tbody tr:first-child td{
+      padding-top: 1em
+    }
+    &__header{
+      &--alignleft{
+        text-align: left;
+      }
+      font-size: smaller;
+      th{
+        border-bottom: 1px solid #EEE;
+      }
+
+    }
+  }
+}

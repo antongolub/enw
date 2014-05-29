@@ -1,0 +1,31 @@
+{
+  "name": "elasticnodeWidgets",
+  "version": "0.0.2",
+  "dependencies": {
+    "backbone": "*",
+    "zepto":"*",
+    "jquery": "jquery#~1.11.0",
+    "underscore": "*",
+    "lodash": "*",
+    "handlebars": "*",
+    "requirejs": "*",
+    "requirejs-text": "*",
+	"require-css": "*",
+    "highcharts": "https://github.com/highslide-software/highcharts-release.git",
+    "l10n": "*",
+	"sortable": "https://github.com/HubSpot/sortable.git"
+  },
+  "description": "Elastinode widget app",
+  "keywords": [
+    "elasticnode"
+  ],
+  "authors": [
+    "Anton Golub <golub.anton@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "elasticnode.ru",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

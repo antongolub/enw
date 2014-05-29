@@ -1,0 +1,17 @@
+.enw{
+  &--hidden{
+    visibility: hidden;
+    display: none;
+  }
+  &--displaynone{
+    display: none;
+  }
+  &--halfwidth{
+    width: 50%;
+    float: left;
+  }
+  &--quarterwidth{
+    width: 25%;
+    float: left;
+  }
+}

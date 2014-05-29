@@ -1,6 +1,9 @@
 .idea/
 
-
+client/coverage/
+client/docs/docco/
+client/docs/jsdoc/
+client/unit_reports/
 client/src/bower_components/
 
 

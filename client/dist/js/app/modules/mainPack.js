@@ -1,0 +1,1 @@
+define(["framework","underscore","backbone","handlebars","highcharts","hcadapter","sortable","utils","models/defaultModel","views/defaultView","text!templates/defaultTpl.hbs","views/chartView","views/tableView"],function(){return!0});

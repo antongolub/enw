@@ -1,0 +1,1 @@
+define(["handlebars","utils"],function(r,t){var n=function(r,n,e,s){var o=t.sortBy(r,n,t.strictBool(e),t.strictBool(s)),i=arguments[arguments.length-1];return i&&i.fn?i.fn(o):o};return r.registerHelper("sortBy",n),n});

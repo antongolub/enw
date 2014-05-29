@@ -1,0 +1,1 @@
+define(["handlebars","framework","l10n","text!localization/localization.json"],function(n,r,e,t){String.toLocaleString(r.parseJSON(t));var o=function(n,r){return n=(n+"").toLocaleString(),r&&r.fn?r.fn(n):n};return n.registerHelper("l10n",o),o});

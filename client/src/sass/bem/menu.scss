@@ -1,0 +1,40 @@
+.enw{
+  &__menu{
+
+    &--primary{
+      width: 66%;
+      float: left;
+    }
+    &--secondary{
+      width: 33%;
+      float: right;
+    }
+    padding-bottom: 0.7em;
+  &__link{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.3em;
+    padding: 0.2em 0 0;
+    border-bottom: 1px dotted $linkColor;
+    color: $linkColor;
+    &:hover{
+      color: $linkHoverColor;
+      cursor: pointer;
+      border-bottom-color: $linkHoverColor
+    }
+    &--active{
+      cursor: default;
+        border-radius: 0.3em;
+        margin: 0.3em 0;
+        padding: 0.2em 0.3em 0;
+        color: #000;
+        background: #EEE;
+        border-bottom-color: transparent;
+        &:hover{
+          color: #000;
+          border-bottom-color: transparent;
+        }
+      }
+    }
+  }
+}
