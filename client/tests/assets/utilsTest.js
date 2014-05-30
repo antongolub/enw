@@ -37,6 +37,12 @@ define(function (require) {
             expect(utils.sizeOf({testtest: test, test: test})).toBe(32);
 
         });
+        it("sum", function () {
+
+            expect(utils.sum()).toBe(0);
+            expect(utils.sum("test")).toBe(0);
+            expect(utils.sum([1, 2, 3])).toBe(6);
+        });
         it("sortBy", function () {
             var compare = function () {
                 var params = Array.prototype.slice.call(arguments),

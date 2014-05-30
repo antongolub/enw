@@ -140,7 +140,7 @@ define([
         },
         /**
          * @name module:examsView#afterRender
-         * @description Menu event bindings only
+         * @description Menu event bindings
          * @see module:defaultView#afterRender
          * @function
          */

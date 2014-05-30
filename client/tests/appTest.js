@@ -211,6 +211,14 @@ define(function (require) {
                         type: "sou"
                     }).type
             ).toBe("sou");
+            expect(
+                this
+                    .widget
+                    .__testonly__
+                    .validateConfig({
+                        type: "population"
+                    }).type
+            ).toBe("population");
         });
         it("Apply config", function () {
             // Incorrect config input returns error object

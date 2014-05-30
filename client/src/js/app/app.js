@@ -160,7 +160,7 @@ define([
                     _config = _.extend({}, config, _config);
 
                     var errCode = null,
-                        allowedTypes = ["gia", "ege", "sou"];
+                        allowedTypes = ["gia", "ege", "sou", "population"];
 
 
                     // At first we need to check out if widget type is allowed
@@ -198,7 +198,12 @@ define([
                         path = 'views/sou/souView';
                         pack = "modules/souModule";
                         break;
+                    case "population":
+                        path = 'views/population/populationView';
+                        pack = "modules/populationModule";
+                        break;
                     }
+
                     if (errCode) {
                         setStatus(-1);
                         console.warn("Invalid config. See elasticnode.ru/widgets/#error" + errCode + " for details");

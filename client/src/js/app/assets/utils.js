@@ -35,6 +35,14 @@ define(["framework", "underscore"],
                         window.navigator.platform === 'Win64' ||
                         false;
             },
+            sum: function (obj) {
+                if (!$.isArray(obj) || obj.length === 0) {
+                    return 0;
+                }
+                return _.reduce(obj, function (sum, n) {
+                    return sum + n;
+                });
+            },
             /**
              * @name module:utils#sortBy
              * @description _.sortBy extension for Handlebars Helpers

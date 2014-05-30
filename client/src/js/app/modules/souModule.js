@@ -13,7 +13,7 @@ define([
     "use strict";
     /**
      * @name module:examsModule
-     * @description Dependent exams view modules preload
+     * @description Dependent view modules preload
      * @function
      * @requires module:souModel
      * @requires module:souView

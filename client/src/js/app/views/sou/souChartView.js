@@ -62,9 +62,6 @@ define([
 
                     });
                     avg = utils.replace(avg.slice(min, avg.length), undefined, null);
-
-
-
                     range = _.range(min, min + avg.length);
 
                     this.chart.xAxis[0].setCategories(range);
@@ -78,11 +75,12 @@ define([
                     } else {
                         this.chart.addSeries(data0, false);
                     }
+                    
                     if (subject.length) {
                         subject = utils.replace(subject.slice(min, subject.length), undefined, null);
                         data1 = {
                             data: subject,
-                            name: "sou".toLocaleString() + "-" + type.toLocaleString().toLocaleLowerCase()
+                            name: "sou".toLocaleString() + "-" + String(type).toLocaleString().toLocaleLowerCase()
                         };
                         if (s1) {
                             s1.update(data1, false);

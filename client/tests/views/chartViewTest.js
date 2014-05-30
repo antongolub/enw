@@ -56,7 +56,7 @@ define(function (require) {
 
             // But now it should return series object
             view.chart.addSeries({}, false);
-            expect(!!view.updateSeries()).toBe(true);
+            expect(!!view.updateSeries([])).toBe(true);
 
             // y-value should mutate after update
             view.chart.addSeries({data: [1, 2, 3]}, false);
