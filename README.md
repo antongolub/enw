@@ -31,9 +31,9 @@ project/client> docco src/js/app/*.js src/js/app/**/*.js -o docs/docco
 
 Build project with r.js
 ```
-project/client/src> ../../server/node_modules/requirejs/bin/r.js -o build.js
-project/client/src> ../../server/node_modules/requirejs/bin/r.js -o build-cdn.js
-project/client/src> ../../server/node_modules/requirejs/bin/r.js -o build-singlefile.js
+project> node node_modules/requirejs/bin/r.js -o client/src/build.js
+project> node node_modules/requirejs/bin/r.js -o client/src/build-cdn.js
+project> node node_modules/requirejs/bin/r.js -o client/src/build-singlefile.js
 ```
 ### Documentation
 [Service description](http://elasticnode.ru/widget/) (ru), [API documentation](http://school.elasticnode.ru/api/) (ru), [jsdoc](http://elasticnode.ru/widget/docs/jsdoc/), [docco](http://elasticnode.ru/widget/docs/docco/app.html)
