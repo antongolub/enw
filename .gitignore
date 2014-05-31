@@ -1,5 +1,6 @@
 .idea/
 
+unit_reports/
 client/coverage/
 client/docs/docco/
 client/docs/jsdoc/

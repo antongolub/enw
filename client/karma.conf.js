@@ -83,7 +83,7 @@ module.exports = function (config) {
         },
         // optionally, configure the reporter
         coverageReporter: {
-            type: 'lcov',
+            type: 'lcovonly',
             //type: 'html',
             dir: 'coverage/'
         },
@@ -113,7 +113,7 @@ module.exports = function (config) {
         // - Safari (only Mac)
         // - PhantomJS
         // - IE (only Windows)
-        browsers: ['PhantomJS'],
+        browsers: ['Chrome'],
         //browsers: ['IE'],
 
 

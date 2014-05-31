@@ -23,9 +23,13 @@ define(function (require) {
             container: "#widgetContainer"
         },
         fakeView: {
+            undelegateEvents: emptyFunction,
+            remove: emptyFunction,
             $el: {
                 detach: emptyFunction,
-                size: function () {return 1; }
+                unbind: emptyFunction,
+                size: function () {return 1; },
+                remove: emptyFunction
             },
             switchModeDelayed: emptyFunction,
             modelInit: emptyFunction,
