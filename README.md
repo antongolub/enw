@@ -1,5 +1,5 @@
 #Elasticnode widget
-[![Build Status](https://travis-ci.org/antongolub/enw.svg?branch=master)](https://travis-ci.org/antongolub/enw)[![Coverage Status](https://img.shields.io/coveralls/antongolub/enw.svg)](https://coveralls.io/r/antongolub/enw?branch=master)
+[![Build Status](https://travis-ci.org/antongolub/enw.svg?branch=master)](https://travis-ci.org/antongolub/enw) [![Coverage Status](https://img.shields.io/coveralls/antongolub/enw.svg)](https://coveralls.io/r/antongolub/enw?branch=master) [![Dependency Status](https://david-dm.org/antongolub/enw.svg)](https://david-dm.org/antongolub/enw)
 ===
 
 

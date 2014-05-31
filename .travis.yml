@@ -12,5 +12,8 @@ before_script:
   - 'npm install -g bower'
   - 'bower install -f'
 after_script:
-  - 'grunt coveralls'
+  - "node node_modules/requirejs/bin/r.js -o client/src/build.js"
+  - "node node_modules/requirejs/bin/r.js -o client/src/build-cdn.js"
+  - "node node_modules/requirejs/bin/r.js -o client/src/build-singlefile.js"
+  - 'grunt'
   

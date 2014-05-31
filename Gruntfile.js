@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         replace: {
-            dist: {
+            coverage: {
                 options: {
                     patterns: [
                         {
@@ -20,13 +20,29 @@ module.exports = function (grunt) {
                         dest: './'
                     }
                 ]
+            },
+            pathfix: {
+                options: {
+                    patterns: [
+                        {
+                            match: /"main",/g,
+                            replacement: ''
+                        }
+                    ]
+                },
+                files: [
+                    {
+                        src: ['client/dist/js/app/main*.js'],
+                        dest: './'
+                    }
+                ]
             }
         },
         coveralls: {
             options: {
                 debug: true,
                 coverage_dir: 'client/coverage/',
-                dryRun: false,
+                dryRun: true,
                 force: true,
                 recursive: true
             }
