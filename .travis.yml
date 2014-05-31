@@ -5,3 +5,7 @@ before_install:
   - 'npm install -g istanbul'
   - 'npm install -g karma'
   - 'npm install -g karma-cli'
+before_script:
+  - 'npm install -g grunt-cli'
+  - 'npm install -g bower'
+  - 'bower install'
