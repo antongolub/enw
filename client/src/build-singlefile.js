@@ -71,5 +71,5 @@
             exports: "Highcharts"
         }
     },
-    include: ["modules/examsModule"]
+    include: ["modules/examsModule", "modules/souModule", "modules/populationModule"]
 })

@@ -18,6 +18,10 @@
         {
             name: "modules/souModule",
             exclude: ["main"]
+        },
+        {
+            name: "modules/populationModule",
+            exclude: ["main"]
         }
     ],
 

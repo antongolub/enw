@@ -1,11 +1,11 @@
 /.idea/
 
-/unit_reports/
-/client/coverage/
-/client/docs/docco/
-/client/docs/jsdoc/
-/client/unit_reports/
-/client/src/bower_components/
+unit_reports/
+client/coverage/
+client/docs/docco/
+client/docs/jsdoc/
+client/unit_reports/
+client/src/bower_components/
 
-/node_modules/
-/server/node_modules/
+node_modules/
+server/node_modules/

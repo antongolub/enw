@@ -52,3 +52,12 @@ models/souModel.js
 views/sou/souChartView.js
 views/sou/souView.js
 modules/souModule.js
+
+modules/populationModule.js
+----------------
+models/populationModel.js
+text!templates/populationTpl.hbs
+views/population/populationAvgChartView.js
+views/population/populationYearChartView.js
+views/population/populationView.js
+modules/populationModule.js
