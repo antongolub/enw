@@ -83,7 +83,7 @@ module.exports = function (config) {
         },
         // optionally, configure the reporter
         coverageReporter: {
-            type: 'text'
+            type: 'lcov'
             //type: 'html',
             //dir: 'coverage/'
         },
