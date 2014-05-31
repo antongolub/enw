@@ -42,7 +42,7 @@ module.exports = function (grunt) {
             options: {
                 debug: true,
                 coverage_dir: 'client/coverage/',
-                dryRun: true,
+                dryRun: false,
                 force: true,
                 recursive: true
             }
