@@ -9,6 +9,8 @@
         "requirejs": "x"
     },
     "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-coveralls": "^0.3.0",
         "csso": "x",
         "docco": "x",
         "gulp": "x",
