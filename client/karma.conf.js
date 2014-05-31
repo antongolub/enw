@@ -13,6 +13,7 @@ module.exports = function (config) {
             'karma-jasmine',
             'karma-qunit',
             'karma-coverage',
+            'karma-phantomjs-launcher',
             'karma-chrome-launcher',
             'karma-ie-launcher',
             'karma-jshint',
@@ -112,7 +113,7 @@ module.exports = function (config) {
         // - Safari (only Mac)
         // - PhantomJS
         // - IE (only Windows)
-        browsers: ['Chrome'],
+        browsers: ['PhantomJS'],
         //browsers: ['IE'],
 
 
