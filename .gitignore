@@ -6,5 +6,5 @@ client/docs/jsdoc/
 client/unit_reports/
 client/src/bower_components/
 
-
+node_modules/
 server/node_modules/
