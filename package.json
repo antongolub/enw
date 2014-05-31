@@ -17,6 +17,7 @@
         "jsdoc": "x",
         "karma": "x",
         "karma-chrome-launcher": "x",
+        "karma-phantomjs-launcher": "^0.1.4",
         "karma-ie-launcher": "^0.1.5",
         "karma-coverage": "^0.2.1",
         "karma-html-reporter": "^0.2.3",
