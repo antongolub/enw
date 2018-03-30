@@ -1,4 +1,6 @@
 #Elasticnode widget
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/antongolub/enw.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/antongolub/enw.svg?branch=master)](https://travis-ci.org/antongolub/enw) [![Coverage Status](https://img.shields.io/coveralls/antongolub/enw.svg)](https://coveralls.io/r/antongolub/enw?branch=master) [![Dependency Status](https://david-dm.org/antongolub/enw.svg)](https://david-dm.org/antongolub/enw) [![devDependency Status](https://david-dm.org/antongolub/enw/dev-status.svg)](https://david-dm.org/antongolub/enw#info=devDependencies)
 
 The easiest way to show *.elasticnode.ru content on any other site is to attach a widget.
